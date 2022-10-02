@@ -1,0 +1,213 @@
+			html{
+				position: relative;
+			}
+			.top{
+				height: 60px;
+				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.top h1{
+				padding-left: 100px;
+				font-family: "华文新魏";
+				line-height: 50%;
+			}
+			.top h1:hover{
+				color: orange;
+			}
+			.top-left{
+				width: 230px;
+				height: 60px;
+				float: left;
+			}
+			.top-left span{
+				position: absolute;
+				top: 20px;
+				left: 200px;
+				font-family: "华文新魏";
+				font-size: 20px;
+				color: #8EC5FC;
+				float: left;
+				display: none;
+			}
+			.top-left:hover span{
+				display: block;
+			}
+			.top1{
+				position: absolute;
+				top: 0px;
+				left: 400px;
+				height: 60px;
+				line-height: 60px;
+				font-family: "华文新魏";
+				font-size: 30px;
+			}
+			.top2{
+				position: absolute;
+				top: 0px;
+				left: 620px;
+				height: 60px;
+				line-height: 60px;
+				font-family: "华文新魏";
+				font-size: 30px;
+			}
+			.top3{
+				position: absolute;
+				top: 0px;
+				left: 840px;
+				height: 60px;
+				line-height: 60px;
+				font-family: "华文新魏";
+				font-size: 30px;
+			}
+			.top4{
+				position: absolute;
+				top: 0px;
+				left: 1060px;
+				height: 60px;
+				line-height: 60px;
+				font-family: "华文新魏";
+				font-size: 30px;
+			}
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover{
+				text-decoration: none;
+				color:  orange;
+			}
+			.top-right{
+					position: absolute;
+					top: 0px;
+					left: 1260px;
+					height: 60px;
+					line-height: 60px;
+					font-family: "华文新魏";
+					font-size: 22px;
+			}
+			.top img{
+				top: 10px;
+				width: 40px;
+				height: 40px;
+				border-radius: 20px;
+				position: absolute;
+				left: 1310px;
+			}
+			.sub{
+					position: absolute;
+					top: 16px;
+					right: 90px;
+					height: 20px;
+				}
+			input:hover{
+				background-color: skyblue;
+				color: white;
+			}
+			.sub input{
+				font-family: "华文新魏";
+				font-size: 20px;
+				border-radius: 8px;
+				border: 2px solid skyblue;
+			}
+			.main{
+				position: absolute;
+				top: 60px;
+				left: 0;
+				background-image: url(../img/111.png);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				width: 100%;
+				height: 1000px;
+			}
+			.main-left h1{
+				position: absolute;
+				left: 40px;
+				top: 200px;
+				color: white;
+				font-size: 30px;
+				font-weight: bold;
+				font-family: "华文行楷";
+			}
+			.main-left h3{
+				position: absolute;
+				left: 40px;
+				top: 300px;
+				color: white;
+				font-size: 30px;
+				font-weight: bold;
+				font-family: "华文行楷";
+			}
+			.center-left{
+				position: absolute;
+				top: 40px;
+				left: 360px;
+				width: 150px;
+				height: 600px;
+				border: 3px solid white;
+				border-radius: 20px;
+				background-color:white;
+				opacity: 0.8;
+			}
+			.center-left img{
+				width: 50px;
+				height: 50px;
+				border-radius: 50px;
+				position: absolute;
+				top: 5px;
+				left: 50px;
+			}
+			.center-left #name{
+				position: absolute;
+				top: 60px;
+				left: 16px;
+				text-align: center;
+				font-family: "华文新魏";
+				font-size: 17px;
+			}
+			.span ul{
+				position:absolute;
+				top: 130px;
+				left: 322px;
+				width: 116px;
+				height: 500px;
+			}
+			.span li{
+				width: 150px;
+				line-height: 100px;
+				list-style-type: none;
+				text-align: center;
+				font-family: "华文新魏";
+				font-size: 20px;
+			}
+			.center{
+				position: absolute;
+				top: 40px;
+				left: 521px;
+				width: 850px;
+				height:600px;
+				border: 3px solid white;
+				border-radius: 20px;
+				background: rgba(250,250,250,0.8);
+			}
+			.center iframe{
+				border-radius: 20px;
+			}
+			.time{
+				position: absolute;
+				left: 30px;
+				color: white;
+				font-size: 28px;
+				font-weight: bold;
+				font-family: "华文新魏";
+				}
+			.bottom
+			{
+				position: absolute;
+				top: 700px;
+				width: 100%;
+				height: 30px;
+				left: 0px;
+			}

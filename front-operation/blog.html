@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>主页</title>
+		<link href="css/blog.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top-left">
+				<h1>沐尘书</h1>
+				<span>山高水远，为你而来</span>
+			</div>
+			<a class="top1" href="blog.html">首页</a>
+			<a class="top2" href="top/study.html">学习</a>
+			<a class="top3" href="top/life.html">生活</a>
+			<a class="top4" href="top/message.html">寄语</a>
+			<span class="top-right">尘书</span>
+			<img src="img/电坤小子.png" title="头像" alt="头像" />
+			<span class="sub"><input type="submit" value="登录"></span>
+		</div>
+		<div class="main">
+			<div class="main-left">
+				<h1>欢迎来到尘书的世界！<br/>Welcome to Chen Shu's world!</h1>
+				<h3>今天也要加油昂！<br/>Today, we still have to refuel!</h3>
+			</div>
+			<div class="main-center">
+				<div class="center-left">
+					<a href="main.html" target="frame"><img src="img/电坤小子.png" alt="头像" title="头像" /></a>
+					<span id="name">尘书<br/>当时只道是寻常</span>
+				</div>
+			</div>
+				<div class="span">
+						<ul>
+							<li><a href="span/main.html" target="frame">主页</a></li>
+							<li><a href="span/photo.html" target="frame">图片</a></li>
+							<li><a href="span/vedio.html" target="frame">视频</a></li>
+							<li><a href="span/email.html" target="frame">邮箱</a></li>
+							<li><a href="span/about.html" target="frame">日志</a></li>
+						</ul>
+				</div>
+				<div class="center">
+					<iframe src="span/main.html" width="850px" height="600px" frameborder="0" scrolling="yes" name="frame"></iframe>
+				</div>
+			</div>
+		<div class="bottom">
+			<div class="time">
+				<script> 
+					document.write("<span id=time></span>") 
+					setInterval("time.innerText=new Date().toLocaleString()",1000)
+				</script> 
+			</div>
+		</div>
+	</body>
+</html>
+
